@@ -1,4 +1,3 @@
-
 import { Experience, Project, SkillCategory } from './types';
 
 export const CV_DATA = {
@@ -69,9 +68,9 @@ export const PROJECTS: Project[] = [
     year: "2019-2021",
     description: "A cultural humanoid robot representing the UAE. It features an expressive face, traditional Kandura and Ghutra attire, and an integrated interface system displaying greeting signals like 'Marhaba'. Designed for advanced human-robot interaction and geriatric cognitive assessment.",
     images: [
-      "images/busaif_1.JPG", 
-      "images/busaif_2.JPG", 
-      "images/busaif_3.jpg"
+      "https://raw.githubusercontent.com/bassamaljazzar93/BassamSAASportfolio/main/images/busaif_3.jpg", 
+      "https://raw.githubusercontent.com/bassamaljazzar93/BassamSAASportfolio/main/images/busaif_2.jpg", 
+      "https://raw.githubusercontent.com/bassamaljazzar93/BassamSAASportfolio/main/images/busaif_1.jpg"
     ], 
     stats: [
       { label: "Platform", value: "Custom Mechatronics" },
@@ -86,8 +85,8 @@ export const PROJECTS: Project[] = [
     year: "2020",
     description: "Revolutionary contactless elevator interface developed during the pandemic. Utilizes an IR sensor matrix mounted on stainless steel panels to detect finger proximity without physical touch, ensuring public safety and hygiene in high-traffic elevators.",
     images: [
-      "images/metaTouch_1.jpg", 
-      "images/metaTouch_2.jpg"
+      "https://raw.githubusercontent.com/bassamaljazzar93/BassamSAASportfolio/main/images/metaTouch_1.jpg", 
+      "https://raw.githubusercontent.com/bassamaljazzar93/BassamSAASportfolio/main/images/metaTouch_2.jpg"
     ],
     stats: [
       { label: "Sensors", value: "IR Hover Array" },
@@ -102,8 +101,8 @@ export const PROJECTS: Project[] = [
     year: "2018",
     description: "A high-mobility 6-wheeled rover featuring the 'Shrimp' locomotion mechanism. Designed for extreme terrain navigation with independent suspension and an orange-wheel high-traction system, modeled and analyzed in SolidWorks.",
     images: [
-      "images/shrimpRover_real.jpg", 
-      "images/shrimpRover_Sim.png"
+      "https://raw.githubusercontent.com/bassamaljazzar93/BassamSAASportfolio/main/images/shrimpRover_real.jpg", 
+      "https://raw.githubusercontent.com/bassamaljazzar93/BassamSAASportfolio/main/images/shrimpRover_Sim.png"
     ],
     stats: [
       { label: "Drivetrain", value: "6WD Independent" },
